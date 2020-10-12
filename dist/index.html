@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch The Lion</title>
+<link rel="stylesheet" href="/src.f10117fe.css"></head>
+
+<body class="h-100 d-flex">
+    <div class="app container h-100">
+        <!--게임의 전체 영역에 해당하는 div> -->
+        <div class="alert alert-primary" role="alert">
+            <!-- 게임에 대한 상황을 알려주는 상황 판(몇번째 턴인지, 누구의 차례인지 등등) -->
+            <strong id="infomation">#0</strong>
+        </div>
+        <div id="upper_deadzone" class="card dead-zone mt-1 mb-3">
+            <!-- 내가 잡은 말들이 놓이는 영역-->
+            <div class="card-body"></div>
+        </div>
+        <div class="board-container container">
+            <!-- 게임의 말들이 움직이는 보드판 영역-->
+        </div>
+        <div id="lower_deadzone" class="card dead-zone mt-3">
+            <!-- 내가 잡은 말들이 놓이는 영역-->
+            <div class="card-body"></div>
+        </div>
+    </div>
+    <script src="/src.f10117fe.js"></script>
+</body>
+
+</html>
